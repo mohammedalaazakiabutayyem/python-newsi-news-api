@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+newsi/newsi.egg-info/PKG-INFO
+newsi/newsi.egg-info/SOURCES.txt
+newsi/newsi.egg-info/dependency_links.txt
+newsi/newsi.egg-info/requires.txt
+newsi/newsi.egg-info/top_level.txt

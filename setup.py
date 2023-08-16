@@ -7,7 +7,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with codecs.open(os.path.join(here, "README.md"), encoding="utf-8") as fh:
     long_description = "\n" + fh.read()
 
-VERSION = '0.0.1'
+VERSION = '0.0.5'
 DESCRIPTION = 'Newsi is Free News API is able to fetch local news and category news in real time.'
 LONG_DESCRIPTION = 'Best free news api that provide news in all categories from different sources like google news api, yahoo news api, bing news api, bbc news api , business news api, breaking news api, newsapi python website news: https://newsi-app.com'
 

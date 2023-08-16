@@ -36,12 +36,15 @@ pip install newsi
 
 To get the country and its supported language
 
+
+
 ```python
-
+from newsi import Supported_language_and_countries
+supported_language_and_countries = Supported_language_and_countries()
+print(supported_language_and_countries)
 ```
-newsi.
----
 
+---
 
 
 ## Local news
@@ -57,7 +60,9 @@ page | Use this to page through the results.
 limit | Use this to customize the number of stories per page <br/>```default``` = 20<br/> ```Max``` = 100
 
 ```python
-
+from newsi import Local
+local_news = Local("en","us","top",1,20)
+print(local_news)
 ```
 
 ---
@@ -79,7 +84,9 @@ page | Use this to page through the results.
 
 
 ```python
-
+from newsi import Category
+category_news = Category("world","en","us","top",1,20)
+print(category_news)
 ```
 
 ---
